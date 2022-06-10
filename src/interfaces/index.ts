@@ -5,3 +5,8 @@ export interface ColorPallete {
 export interface TextFonts {
   default: string;
 }
+
+export interface TimeProps {
+  count: number;
+  info: string;
+}
