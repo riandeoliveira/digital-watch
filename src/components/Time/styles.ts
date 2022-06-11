@@ -7,12 +7,22 @@ export const Time = styled.div`
   border-radius: 7px;
   box-shadow: 5px 5px 15px ${colors.neutral_dark};
   color: ${colors.primary};
+  cursor: context-menu;
   display: flex;
   flex-direction: column;
   height: 170px;
   justify-content: center;
   letter-spacing: 3px;
+  transition: transform 0.5s;
   width: 150px;
+
+  &:hover {
+    transform: scale(1.15);
+  }
+
+  &:active {
+    transform: scale(0.85);
+  }
 `;
 
 export const Count = styled.span`
