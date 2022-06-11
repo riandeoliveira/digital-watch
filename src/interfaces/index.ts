@@ -1,3 +1,5 @@
+import { TimeType } from "../types";
+
 export interface ColorPallete {
   neutral: string;
 }
@@ -7,6 +9,6 @@ export interface TextFonts {
 }
 
 export interface TimeProps {
-  count: number;
+  count: TimeType;
   info: string;
 }

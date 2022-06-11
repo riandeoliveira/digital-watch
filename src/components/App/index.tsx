@@ -1,20 +1,25 @@
+import { useState, useEffect } from "react";
+import { TimeType } from "../../types";
 import * as S from "./styles";
 import { Time } from "../Time";
 
 export const App = (): JSX.Element => {
-  let hours = 0;
-  let minutes = 0;
-  let seconds = 0;
+  const [hours, setHours] = useState<TimeType>(0);
+  const [minutes, setMinutes] = useState<TimeType>(0);
+  const [seconds, setSeconds] = useState<TimeType>(0);
 
-  setInterval(() => {
-    const currentDate = new Date();
+  const formatTime = (time: TimeType): TimeType =>
+    time < 10 ? "0" + time : time;
 
-    hours = currentDate.getHours();
-    minutes = currentDate.getMinutes();
-    seconds = currentDate.getSeconds();
+  useEffect((): void => {
+    setInterval((): void => {
+      const date: Date = new Date();
 
-    console.log(seconds);
-  }, 1000);
+      setHours(formatTime(date.getHours()));
+      setMinutes(formatTime(date.getMinutes()));
+      setSeconds(formatTime(date.getSeconds()));
+    });
+  });
 
   return (
     <S.App>
