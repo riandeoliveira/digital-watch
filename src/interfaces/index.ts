@@ -1,10 +1,16 @@
 import { TimeType } from "../types";
 
 export interface ColorPallete {
+  primary: string;
+  secondary: string;
+  tertiary: string;
   neutral: string;
+  neutral_dark: string;
+  neutral_darkness: string;
 }
 
 export interface TextFonts {
+  primary: string;
   default: string;
 }
 
