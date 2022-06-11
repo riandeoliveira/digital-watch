@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
     align-items: center;
     background: linear-gradient(120deg, ${colors.secondary}, ${colors.tertiary});
     display: flex;
-    height: 100vh;
     justify-content: center;
+    min-height: 100vh;
   }
 `;
