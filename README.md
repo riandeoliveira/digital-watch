@@ -22,7 +22,7 @@ Projeto desenvolvido com base no [vídeo](https://www.youtube.com/watch?v=GK0ok3
 
 ## 💻 Como acessar
 
-<!-- Onde a sua aplicação está hospedada? -->
+A aplicação está hospedada no **GitHub Pages** e pode ser acessada [aqui](https://riandeoliveira.github.io/digital-watch/).
 
 ## 🛠️ Tecnologias utilizadas
 
