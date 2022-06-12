@@ -4,21 +4,15 @@
 
 ## 📚 Sobre
 
-<!-- Faça uma descrição do seu projeto aqui -->
-
-### 🕹️ Possui as seguintes funcionalidades:
-
-- Funcionalidade 1
-- Funcionalidade 2
-- Funcionalidade 3
+Relógio digital dinâmico, com responsividade e animações.
 
 ### 📝 Nota
 
-<!-- Notas sobre o projeto -->
+Optei por utilizar tecnologias mais avançadas que apenas HTML, CSS e JS, para testar meus conhecimentos.
 
 ### 🏗️ Desenvolvimento
 
-<!-- Detalhes sobre o desenvolvimento -->
+Projeto desenvolvido com base no [vídeo](https://www.youtube.com/watch?v=GK0ok3ZCXwM&t=538s) da youtuber [Larissa Kich](https://www.youtube.com/channel/UCo-gJ8RnTn5akHqHvO55DVA).
 
 ## 🔎 Demonstração
 
@@ -119,6 +113,6 @@
 
 ## 🚀 Desenvolvido em
 
-<!-- Data de desenvolvimento -->
+12 de jun. de 2022
 
 <p align="center">✨ Made with 💙 by <a href="https://github.com/riandeoliveira"><strong>Rian Oliveira</strong></a> ✨</p>
